@@ -13,7 +13,6 @@ jobs:
       - name: Install hugo and build
         run: |
             sudo apt install hugo
-            cd homepage
             hugo
       - name: Deploy to external repository
         uses: cpina/github-action-push-to-another-repository@main
