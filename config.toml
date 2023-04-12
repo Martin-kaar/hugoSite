@@ -1,3 +1,21 @@
-baseURL = "http://example.org/"
+baseURL = "/m.kaar"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "ananke"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Martins Weinverkostungsblog"
+    description = "Explore all different tastes of wine"
+    github = "https://github.com/Martin-kaar"
+    email = "marty.kaar@gmail.com"
+    opengraph = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[menu]
+    [[menu.main]]
+        name = "Test"
+        url = "/api/content/post"
+        weight = 1
+
