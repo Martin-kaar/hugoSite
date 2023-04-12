@@ -21,7 +21,7 @@ jobs:
 
         with:
           # GitHub Action output files
-          source-directory: quickstart/public
+          source-directory: public
           destination-github-username: martin-kaar
           destination-repository-name: martin-kaar.github.io
           user-email: marty.kaar@gmail.com
